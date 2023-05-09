@@ -74,3 +74,12 @@ body{
     padding: 0.7rem;
 }
 
+.more-about{
+    padding: 5rem;
+    background: url('images/carousel.jpg');
+}
+
+#carousel-container{
+    color: #fff;
+}
+
