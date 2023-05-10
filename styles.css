@@ -7,14 +7,17 @@ body{
 }
 
 .main{
-    background: url('images/bg1.jpg');
+    /* background: url('images/bg1.jpg'); */
 }
 
 .navbar{
     /* background-color: #1b1d1d !important; */
-    padding: 1rem;
+    padding: 0.5rem;
     box-shadow: 0 7px 11px #20083a;
     backdrop-filter: blur(60px);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-link {
@@ -23,18 +26,25 @@ body{
 
 .navbar-nav{
     gap: 10px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .navbar-brand{
     font-size: 2rem;
     color: #fff;
 }
 
+.bg-image img{
+    width: 100% !important;
+    position: fixed;
+    z-index: -1;
+    filter: brightness(0.9);
+}
+
 .hero{
     /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,10,27,1) 23%, rgba(34,34,46,1) 49%, rgba(43,38,57,1) 60%, rgba(56,56,56,1) 84%, rgba(90,91,96,1) 100%, rgba(104,107,107,1) 100%); */
-    /* background: url('images/bg.jpg'); */
+    background: url('images/bg1.jpg');
     /* background-color: #F1F6F9; */
-    padding-top: 4rem;
+    padding-top: 7rem;
 }
 
 .hero img{
@@ -68,7 +78,8 @@ body{
 }
 
 .skills img{
-    box-shadow: 0px 1px 6px 4px #e4dddd;
+    box-shadow: 0px 1px 6px 4px #fff;
+    /* box-shadow: 0px 1px 6px 4px #e4dddd; */
     width: 150px;
     border-radius: 10px;
     padding: 0.7rem;
