@@ -6,19 +6,17 @@ body{
     width: 35px;
 }
 
-.main{
-    /* background: url('images/bg1.jpg'); */
-}
-
 .navbar{
-    /* background-color: #1b1d1d !important; */
+    background: url(images/bg2.jpg) 600px;
     padding: 0.5rem;
     box-shadow: 0 7px 11px #20083a;
-    backdrop-filter: blur(60px);
+    /* backdrop-filter: blur(60px); */
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
+
 
 .nav-link {
     color: #fff !important;
@@ -42,13 +40,15 @@ body{
 
 .hero{
     /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,10,27,1) 23%, rgba(34,34,46,1) 49%, rgba(43,38,57,1) 60%, rgba(56,56,56,1) 84%, rgba(90,91,96,1) 100%, rgba(104,107,107,1) 100%); */
-    background: url('images/bg1.jpg');
-    /* background-color: #F1F6F9; */
-    padding-top: 7rem;
+    /* background: url('images/bg2.jpg'); */
+    backdrop-filter: brightness(0.5);
+    padding: 11rem 0 8rem;
 }
 
 .hero img{
-    width: 400px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px #000;
 }
 
 .about{
@@ -65,8 +65,8 @@ body{
 
 .skills-section{
     text-align: center;
-    padding: 3rem 0;
-    margin: 2rem 0;
+    padding: 6rem 0;
+    /* margin: 4rem 0; */
 }
 
 .skills{
