@@ -39,8 +39,6 @@ body{
 }
 
 .hero{
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,10,27,1) 23%, rgba(34,34,46,1) 49%, rgba(43,38,57,1) 60%, rgba(56,56,56,1) 84%, rgba(90,91,96,1) 100%, rgba(104,107,107,1) 100%); */
-    /* background: url('images/bg2.jpg'); */
     backdrop-filter: brightness(0.5);
     padding: 11rem 0 8rem;
 }
@@ -54,9 +52,9 @@ body{
 .about{
     margin: auto;
     padding: 2rem;
-    background: #e6e6e6;
+    background: #fff;
     border-radius: 25px;
-    box-shadow: 1px 0px 9px 4px #CCD;
+    box-shadow: 1px 0px 9px 4px #3f3f46;
 }
 
 .my-photo{
